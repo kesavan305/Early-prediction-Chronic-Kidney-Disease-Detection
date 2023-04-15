@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chronic Kidney Disease Prediction</title>
+	<style>
+		body {
+			background-image: url('kidney-image.jpg');
+			background-size: cover;
+			font-family: Arial, sans-serif;
+			color: #333;
+		}
+		.container {
+			width: 80%;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: rgba(255, 255, 255, 0.8);
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		}
+		label {
+			display: block;
+			margin-bottom: 5px;
+		}
+		input[type="text"], select {
+			padding: 5px;
+			border-radius: 5px;
+			border: none;
+			margin-bottom: 10px;
+			width: 100%;
+			box-sizing: border-box;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			border: none;
+			padding: 10px;
+			border-radius: 5px;
+			cursor: pointer;
+			width: 100%;
+			font-size: 16px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Chronic Kidney Disease Prediction</h1>
+		<form action="#" method="post">
+			<label for="age">Age:</label>
+			<input type="text" name="age" id="age" required>
+
+			<label for="bp">Blood Pressure:</label>
+			<input type="text" name="bp" id="bp" required>
+
+			<label for="sg">Specific Gravity:</label>
+			<input type="text" name="sg" id="sg" required>
+
+			<label for="al">Albumin:</label>
+			<input type="text" name="al" id="al" required>
+
+			<label for="su">Sugar:</label>
+			<input type="text" name="su" id="su" required>
+
+			<label for="rbc">Red Blood Cells:</label>
+			<select name="rbc" id="rbc">
+				<option value="normal">Normal</option>
+				<option value="abnormal">Abnormal</option>
+			</select>
+
+			<input type="submit" value="Predict">
+		</form>
+	</div>
+</body>
+</html>
