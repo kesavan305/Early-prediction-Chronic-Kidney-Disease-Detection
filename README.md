@@ -1,2 +1,3 @@
 # Early-prediction-Chronic-Kidney-Disease-Detection
-video link : https://drive.google.com/file/d/1Ag5LVTICENwnQKJgSyIZRU8ck--8ovp0/view?usp=drivesdk
+video link : 
+https://drive.google.com/file/d/11bgJxFpsm8_lZKDZm6mu6-6SrfBOaoHH/view?usp=drivesdk
